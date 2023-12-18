@@ -8,7 +8,7 @@
 
 <div align=center>
 
-<img src="https://github.com/Luciferbobo/D4NeRF/blob/main/demo/main.png" width="680"> 
+<img src="https://github.com/Luciferbobo/SSR/blob/main/images/tf.png" width="1000"> 
 
 </div>
 
