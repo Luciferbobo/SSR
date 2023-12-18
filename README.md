@@ -19,3 +19,22 @@ Generating high-quality, realistic rendering images for real-time applications g
 ## Getting started
 
 **Code coming soon!**
+
+## Citing
+```
+@article{zhang2023high,
+  title={High-Quality Real-Time Rendering Using Subpixel Sampling Reconstruction},
+  author={Zhang, Boyu and Yuan, Hongliang and Zhu, Mingyan and Liu, Ligang and Wang, Jue},
+  journal={arXiv preprint arXiv:2301.01036v2},
+  year={2023}
+}
+
+or
+
+@article{zhang2023high,
+  title={High-Quality Supersampling via Mask-reinforced Deep Learning for Real-time Rendering},
+  author={Zhang, Boyu and Yuan, Hongliang and Zhu, Mingyan and Liu, Ligang and Wang, Jue},
+  journal={arXiv preprint arXiv:2301.01036v1},
+  year={2023}
+}
+```
