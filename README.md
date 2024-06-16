@@ -16,9 +16,23 @@
 
 Generating high-quality, realistic rendering images for real-time applications generally requires tracing a few samples-per-pixel (spp) and using deep learning-based approaches to denoise the resulting low-spp images. Existing denoising methods have yet to achieve real-time performance at high resolutions due to the physically-based sampling and network inference time costs. In this paper, we propose a novel Monte Carlo sampling strategy to accelerate the sampling process and a corresponding denoiser, subpixel sampling reconstruction (SSR), to obtain high-quality images. Extensive experiments demonstrate that our method significantly outperforms previous approaches in denoising quality and reduces overall time costs, enabling real-time rendering capabilities at 2K resolution.
 
-## Getting started
+## Data Preparation
 
-**Code coming soon!**
+Please download [SSR dataset](https://pan.baidu.com/s/1rwoE82xNisf--xBD5mwjUg?pwd=ssr8) and organize the data as follows:
+
+```
+Subpixel dataset
+├── spp32768_train
+|  └── [scene name]
+|  └── ...
+├── spp32768_test
+|  └── [scene name]
+|  └── ...
+├── spp32768_val
+|  └── [scene name]
+|  └── ...
+...
+```
 
 ## Citing
 ```
