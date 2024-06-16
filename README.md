@@ -74,7 +74,7 @@ python3 test.py --checkpoint rmse
 
 ## Baselines
 
-We additionally provide the baseline reproduction code:
+We additionally provide baselines reproduction code:
 
 [Monte Carlo Denoising via Auxiliary Feature Guided Self-Attention (TOG 2021)](https://aatr0x13.github.io/AFGSA.github.io/afgsa.html)
 
@@ -84,16 +84,6 @@ We additionally provide the baseline reproduction code:
 
 [Interactive Reconstruction of Monte Carlo Image Sequences using a Recurrent Denoising Autoencoder (SIGGRAPH 2017)](https://research.nvidia.com/publication/2017-07_interactive-reconstruction-monte-carlo-image-sequences-using-recurrent)
 
-
-The backbones of these methods are located in the following,
-
-```
-├── baselines
-|  └── AFS
-|  └── ANF
-|  └── NSRR
-|  └── RAE
-```
 
 ## Citing
 ```
